@@ -67,8 +67,6 @@ def expo_smoothing_model():
     forecast_lst = dataset['forecast'].tolist()
     # let initial alpha at the end of period 15 be 0.2 and beta 0.1
     alpha = 1/(2*len(demand_lst))
-
-
     return
 
 
